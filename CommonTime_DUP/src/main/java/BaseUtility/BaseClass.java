@@ -23,6 +23,7 @@ import genericUtilities.WebDriverUtility;
 public class BaseClass {
 	public WebDriver driver;
 	public WebDriverUtility wu = new WebDriverUtility();
+	public static WebDriver sdriver;
 	public PropertyUtility pu = new PropertyUtility();
 	
 	@BeforeClass
@@ -31,6 +32,7 @@ public class BaseClass {
 		String BROWSER = System.getProperty("browser" , pu.getPropertyData("chrome"));
 		System.out.println("Launch the browser");
 		driver = wu.launchBrowser("chrome");
+		sdriver=driver;
 		wu.maximizeBrowser(driver);
 		wu.implicitWaitMethod(driver,3);
 	}

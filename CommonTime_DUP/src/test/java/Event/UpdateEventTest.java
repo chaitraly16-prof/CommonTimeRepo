@@ -8,13 +8,15 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import BaseUtility.BaseClass;
+import ListenerUtility.CommonTimeListener;
 import ObjectRepo.CHome;
 import ObjectRepo.Clogin;
 import genericUtilities.PropertyUtility;
-
+@Listeners(CommonTimeListener.class)
 public class UpdateEventTest extends BaseClass {
 	
 	@Test  (groups="integration")   //PASS

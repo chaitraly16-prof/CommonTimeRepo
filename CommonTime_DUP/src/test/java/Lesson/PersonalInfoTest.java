@@ -13,9 +13,11 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import BaseUtility.BaseClass;
+import ListenerUtility.CommonTimeListener;
 import ObjectRepo.ArtModules;
 import ObjectRepo.CHome;
 import ObjectRepo.Clogin;
@@ -24,7 +26,7 @@ import genericUtilities.ExcelFileUtility;
 import genericUtilities.PropertyUtility;
 import genericUtilities.WebDriverUtility;
 import BaseUtility.BaseClass;
-
+@Listeners(CommonTimeListener.class)
 public class PersonalInfoTest extends BaseClass {
 	
 	@Test  (groups="smoke") //PASS

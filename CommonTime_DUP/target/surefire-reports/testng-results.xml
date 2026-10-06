@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-10-06T09:24:41 IST" name="batchSuiteTest" finished-at="2026-10-06T09:25:35 IST" duration-ms="54326">
+    <groups>
+      <group name="system">
+        <method signature="PersonalInfoTest.createLesson()[pri:0, instance:Lesson.PersonalInfoTest@1534f01b]" name="createLesson" class="Lesson.PersonalInfoTest"/>
+      </group> <!-- system -->
+      <group name="smoke">
+        <method signature="PersonalInfoTest.verifyAccount()[pri:0, instance:Lesson.PersonalInfoTest@1534f01b]" name="verifyAccount" class="Lesson.PersonalInfoTest"/>
+      </group> <!-- smoke -->
+      <group name="integration">
+        <method signature="UpdateEventTest.verifyMessage()[pri:0, instance:Event.UpdateEventTest@433d61fb]" name="verifyMessage" class="Event.UpdateEventTest"/>
+      </group> <!-- integration -->
+    </groups>
+    <test started-at="2026-10-06T09:24:41 IST" name="Test" finished-at="2026-10-06T09:25:35 IST" duration-ms="54326">
+      <class name="Lesson.PersonalInfoTest">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:Lesson.PersonalInfoTest@1534f01b]" started-at="2026-10-06T09:24:59 IST" name="configBC" finished-at="2026-10-06T09:25:03 IST" duration-ms="3909" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:Lesson.PersonalInfoTest@1534f01b]" started-at="2026-10-06T09:25:03 IST" name="configBM" finished-at="2026-10-06T09:25:07 IST" duration-ms="4393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="createLesson()[pri:0, instance:Lesson.PersonalInfoTest@1534f01b]" started-at="2026-10-06T09:25:07 IST" name="createLesson" finished-at="2026-10-06T09:25:25 IST" duration-ms="17533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLesson -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:Lesson.PersonalInfoTest@1534f01b]" started-at="2026-10-06T09:25:25 IST" name="configAM" finished-at="2026-10-06T09:25:25 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:Lesson.PersonalInfoTest@1534f01b]" started-at="2026-10-06T09:25:25 IST" name="configBM" finished-at="2026-10-06T09:25:25 IST" duration-ms="455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="verifyAccount()[pri:0, instance:Lesson.PersonalInfoTest@1534f01b]" started-at="2026-10-06T09:25:25 IST" name="verifyAccount" finished-at="2026-10-06T09:25:34 IST" duration-ms="8882" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAccount -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:Lesson.PersonalInfoTest@1534f01b]" started-at="2026-10-06T09:25:34 IST" name="configAM" finished-at="2026-10-06T09:25:34 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:Lesson.PersonalInfoTest@1534f01b]" started-at="2026-10-06T09:25:34 IST" name="configAC" finished-at="2026-10-06T09:25:35 IST" duration-ms="1335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- Lesson.PersonalInfoTest -->
+      <class name="Event.UpdateEventTest">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:Event.UpdateEventTest@433d61fb]" started-at="2026-10-06T09:24:41 IST" name="configBC" finished-at="2026-10-06T09:24:45 IST" duration-ms="4276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:Event.UpdateEventTest@433d61fb]" started-at="2026-10-06T09:24:45 IST" name="configBM" finished-at="2026-10-06T09:24:49 IST" duration-ms="3413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="verifyMessage()[pri:0, instance:Event.UpdateEventTest@433d61fb]" started-at="2026-10-06T09:24:49 IST" name="verifyMessage" finished-at="2026-10-06T09:24:57 IST" duration-ms="8338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMessage -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:Event.UpdateEventTest@433d61fb]" started-at="2026-10-06T09:24:57 IST" name="configAM" finished-at="2026-10-06T09:24:57 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:Event.UpdateEventTest@433d61fb]" started-at="2026-10-06T09:24:57 IST" name="configAC" finished-at="2026-10-06T09:24:59 IST" duration-ms="1443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method is-config="true" signature="configAS()[pri:0, instance:Event.UpdateEventTest@433d61fb]" started-at="2026-10-06T09:25:36 IST" name="configAS" finished-at="2026-10-06T09:25:36 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- Event.UpdateEventTest -->
+    </test> <!-- Test -->
+  </suite> <!-- batchSuiteTest -->
+</testng-results>
